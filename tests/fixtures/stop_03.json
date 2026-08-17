@@ -1,0 +1,15 @@
+{
+  "session_id": "d6195f93-8909-4c15-8f03-7571c55d77a2",
+  "transcript_path": "/home/kamil/.claude/projects/-home-kamil-code/d6195f93-8909-4c15-8f03-7571c55d77a2.jsonl",
+  "cwd": "/home/kamil/code",
+  "prompt_id": "18caf741-1ba4-42eb-9f3b-7af16979a144",
+  "permission_mode": "default",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "Stop",
+  "stop_hook_active": false,
+  "last_assistant_message": "The `/home/kamil/code` folder just has one subdirectory: `scripts`. Want me to look inside it?",
+  "background_tasks": [],
+  "session_crons": []
+}

@@ -1,0 +1,15 @@
+{
+  "session_id": "d6195f93-8909-4c15-8f03-7571c55d77a2",
+  "transcript_path": "/home/kamil/.claude/projects/-home-kamil-code/d6195f93-8909-4c15-8f03-7571c55d77a2.jsonl",
+  "cwd": "/home/kamil/code",
+  "prompt_id": "ee258d6c-ae36-467e-bd4e-960428011c74",
+  "permission_mode": "acceptEdits",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "Stop",
+  "stop_hook_active": false,
+  "last_assistant_message": "Saved as `/home/kamil/code/add.py`. It defines an `add(a, b)` function and prompts for two numbers when run directly.",
+  "background_tasks": [],
+  "session_crons": []
+}
