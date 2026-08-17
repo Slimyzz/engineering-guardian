@@ -1,0 +1,11 @@
+{
+  "session_id": "<REDACTED_SESSION_ID>",
+  "turn_id": "<REDACTED_TURN_ID>",
+  "transcript_path": "<REDACTED_TRANSCRIPT_PATH>",
+  "cwd": "<HOME>/code/hook-lab",
+  "hook_event_name": "Stop",
+  "model": "gpt-5.6-sol",
+  "permission_mode": "default",
+  "stop_hook_active": false,
+  "last_assistant_message": "During this session:\n\n- `add.py` was created with `return a + b`.\n- `test_add.py` was created with four tests for positive numbers, negative numbers, mixed signs, and string concatenation.\n- Later, only `add.py` was changed from `return a + b` to `return a * b`.\n- `test_add.py` was not modified after its creation.\n\nCurrent verified results:\n\n- Positive-number test: fails (`2 * 3` is `6`, not `5`).\n- Negative-number test: fails (`-2 * -3` is `6`, not `-5`).\n- Mixed-number test: fails (`-2 * 3` is `-6`, not `1`).\n- String test: errors with `TypeError` because two strings cannot be multiplied.\n\nThe normal test runner exits on the first failed assertion with status `1`. All four tests were also run independently: none pass. Both files remain untracked because the repository has no commits."
+}
